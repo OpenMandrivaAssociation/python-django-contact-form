@@ -1,4 +1,5 @@
 %define realname django-contact-form
+%define alphatag 97559a887345
 
 Name:           python-django-contact-form
 Version:        0.3
@@ -8,7 +9,7 @@ Summary:        An extensible contact-form application for Django
 Group:          Development/Python
 License:        BSD
 URL:            http://bitbucket.org/ubernostrum/django-contact-form/
-Source0:        http://django-contact-form.googlecode.com/files/contact_form-%{version}.tar.gz
+Source0:        contact_form-%{alphatag}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch:      noarch
@@ -19,7 +20,7 @@ Requires:       python-django
 An extensible contact-form application for Django
 
 %prep
-%setup -q -n contact_form-%{version}
+%setup -q -n %{realname}
 
 %build
 %{__python} setup.py build
