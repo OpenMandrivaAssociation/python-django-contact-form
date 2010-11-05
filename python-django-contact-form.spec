@@ -3,7 +3,7 @@
 
 Name:           python-django-contact-form
 Version:        0.3
-Release:        %mkrel 3
+Release:        %mkrel 4
 Summary:        An extensible contact-form application for Django
 
 Group:          Development/Python
