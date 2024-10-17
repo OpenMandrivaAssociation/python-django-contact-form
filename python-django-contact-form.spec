@@ -8,7 +8,7 @@ Summary:        An extensible contact-form application for Django
 
 Group:          Development/Python
 License:        BSD
-URL:            http://bitbucket.org/ubernostrum/django-contact-form/
+URL:            https://bitbucket.org/ubernostrum/django-contact-form/
 Source0:        contact_form-%{alphatag}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
