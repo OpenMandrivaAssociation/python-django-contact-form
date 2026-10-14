@@ -3,7 +3,7 @@
 
 Name:		python-django-contact-form
 Version:	5.2.0
-Release:	1
+Release:	2
 Summary:	An extensible contact-form application for Django
 Group:		Development/Python
 License:	BSD-3-Clause
@@ -12,7 +12,7 @@ Source0:	%{URL}/archive/%{version}/%{name}-%{version}.tar.gz
 
 BuildSystem:	python
 BuildArch:	noarch
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(pdm-backend)
 BuildRequires:	python%{pyver}dist(setuptools)
